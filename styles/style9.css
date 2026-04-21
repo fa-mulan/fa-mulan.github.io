@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../styles/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #f37f34;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+ul {
+    line-height: 100%;
+    color: #774e2e;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: 0.05em;
+    padding-top: 65px;
+    text-shadow: 1px 0.5px 0.01px black;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    padding-right: 100px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #673b19;
+    padding-top: 40px;
+}
+
+.menu a {
+    line-height: 130%;
+}
+
+p,
+ul {
+    line-height: 150%;
+}
+
+.greeting a {
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 1920px;
+    height: 2735px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.top {
+    width: 1170px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/logoYummy.svg);
+}
+
+.menu1 {
+    padding-right: 30px;
+}
+
+.greeting {
+    height: 600px;
+    background-image: url(../images/dogTop.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 50px;
+}
+
+.greeting p {
+    width: 575px;
+    margin: 50px 0px;
+    color: #2e1a0b;    
+    text-shadow: 0.5px 1px 2px #2e1a0b;
+}
+
+.button {
+    width: 343px;
+    height: 69px;
+    background-color: #774E2E;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.middle {
+    width: 100%;
+    height: 840px;
+    background-color: #fff9ea;
+}
+
+.middle h2 {
+    text-align: center;
+    padding-top: 125px;
+}
+
+.sweets {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+.item {
+    width: 330px;
+    height: 461px;
+    background-color: #fff;
+}
+
+.item p {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bottom {
+    width: 1170px;
+    height: 722px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    background-image: url(../images/dogBottom.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bottom h2 {
+    padding-top: 35px;
+}
+
+.bottom p {
+    width: 47%;
+    padding-top: 35px;
+}
+
+.bottom h4 {
+    text-align: start;
+    padding-top: 65px;
+}
+
+.bottom ul {
+    padding-top: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 179px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #774E2E;
+    column-gap: 150px;
+}
