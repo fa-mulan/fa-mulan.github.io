@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Sevillana', cursive;
+    src: url(./Sevillana-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    width: 80%;
+    margin: 0 auto;
+    background: pink;
+    height: 95vh;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    background: rgb(143, 80, 143);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    /*height: 70vh;*/
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.logo {
+    font-family: 'Sevillana', cursive;
+    color: pink;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+form {
+    padding-right: 67px;
+}
+
+input {
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Sevillana', cursive;
+    color: rgb(143, 80, 143);
+    font-size: 15px;
+    background: pink;
+}
+
+.search {
+    text-align: end;
+    font-family: 'Sevillana', cursive;
+    color: pink;
+    font-size: 15px;
+}
+
+.card {
+    width: 27%;
+    height: 67vh;
+    background: rgb(247, 144, 190);
+    display: flex;
+    margin: 0px 10px;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 20px 20px;
+    margin: 0px 25px;
+
+
+}
+
+.rating {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6733/6733652.png);
+    background-size: 55px 45px;
+    width: 55px;
+    height: 45px;
+    border-radius: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1000;
+}
+
+.film1,
+.film2,
+.film3 {
+    width: 100%;
+    height: 45vh;
+    background: pink;
+    border: 1px solid rgb(143, 80, 143);
+    position: relative;
+}
+
+.film1 {
+    background-image: url(https://www.rutage.com/wp-content/uploads/2015/09/tango-3-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 45vh;
+
+}
+
+.film2 {
+    background-image: url(https://static.wixstatic.com/media/b5625a_05c4f5d325be4ca282234991278db78d~mv2.png/v1/fill/w_568,h_604,al_c,lg_1,q_85,enc_auto/b5625a_05c4f5d325be4ca282234991278db78d~mv2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 45vh;
+
+}
+
+.film3 {
+    background-image: url(./tango3.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 45vh;
+
+}
+
+.title,
+.category {
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    margin-top: 25px;
+    font-family: 'Sevillana', cursive;
+    color: rgb(143, 80, 143);
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background: rgb(143, 80, 143);
+    color: pink;
+    border: none;
+    box-shadow: 3px -3px 5px 1px rgb(163, 80, 143);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Sevillana', cursive;
+    margin-top: 5px;
+}
+
+.buttonLong {
+    width: 250px;
+}
